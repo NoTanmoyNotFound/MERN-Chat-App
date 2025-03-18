@@ -7,3 +7,4 @@ export const login = (req,res) =>{
 export const logout = (req,res) =>{
     res.send("logout route")
 }
+// mongodb pass - HcxeAlMPFH8HAD8J
