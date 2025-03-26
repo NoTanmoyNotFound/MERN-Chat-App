@@ -60,5 +60,9 @@ export const useAuthStore = create((set) => ({
             const errorMessage = error.response?.data?.message || "Logout failed. Please try again.";
             toast.error(errorMessage);
         }
-    }
+    },
+
+    updateProfile: async(data)=>{
+        
+    },
 }));
