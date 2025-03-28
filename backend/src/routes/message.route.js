@@ -8,4 +8,4 @@ router.get("/users", protectRoute,getUsersForSidebar)
 
 router.post("/send/:id", protectRoute, sendMessage)
 
-export default Router
+export default router
